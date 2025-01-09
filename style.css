@@ -1,0 +1,168 @@
+/* 
+    Author : Ls pain
+    Github : https://github.com/Rtobdowu-570
+    Telegram : https://t.me/ls_pain
+    Email : gcah4451@gmail.com
+    Copyright (c) 2024
+*/
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    top: 0;
+    margin-top: rem;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    font-family: 'Crimson Pro', serif;
+}
+
+
+
+body{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('https://i.pinimg.com/736x/a8/fe/5a/a8fe5a5d83b65b81b27716d781a3fc5f.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    width: 420px;
+    background-color: transparent;
+    box-shadow:  10px rgba(0, 0, 0, .5);
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(25px);
+    border-radius: 8px;
+    overflow: hidden;
+    color: #fff;
+    padding: 30px 40px;
+}
+
+.container h2{
+    font-size: 32px;
+    text-align: center;
+}
+
+.container .user{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+
+.user input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.user input::placeholder{
+    color: #fff;
+}
+
+.user i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+}
+
+.container .remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px 0;
+}
+
+.remember label{
+    margin-left: -90px;
+}
+
+.remember label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember a:hover{
+    text-decoration: underline;
+}
+.container .btn{
+    width:100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+.container .btn:hover{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.container .register{
+    font-size: 15px;
+   margin: 20px 0 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.register a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register a:hover{
+    text-decoration: underline;
+}
+
+.items{
+    position: absolute;
+    bottom: 0;
+}
+
+ul {
+    list-style: none;
+  }
+  
+  ul li {
+    font-size: 18px;
+    color: #fff;
+    padding: 5px;
+     margin-top: 0;
+  }

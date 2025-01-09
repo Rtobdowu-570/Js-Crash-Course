@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js crash course</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <h1 id="js">Js Crash Course</h1>
+    </header>
+
+    <div class="container">
+        <h2>Login</h2>
+        <form action="process.php"  target="_self" method="post" id="my-form">
+            <div class="user">
+                <input type="text" name="username" placeholder="Enter username" id="name" required minlength="6" autocomplete="username">
+                <i class='bx bxs-user'></i>
+            </div>
+
+            <div class="msg">
+            </div>
+            <div class="user">
+                <input type="password" name="Password" id="pass"  placeholder="Enter password" required minlength="8" autocomplete="current-password">
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+        
+            <div class="remember">
+                <input type="checkbox" name="remember-me" id="remember-me">
+                <label for="remember-me">Remember me</label>
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button class="btn" type="submit">Login</button>
+        
+            <div class="register">
+                <p>Don't have an account? <a href="../ Back Signup page/signup.html">Register</a></p>
+                </div>
+        </form>
+    </div>
+
+    <ul id="users"></ul>
+
+    <ul class="items">
+        <li class="item">Item 1</li>
+        <li class="item">Item 2</li>
+        <li class="item">Item 3</li>
+      </ul> 
+
+    
+    <script src="/1st sample/main.js"></script>
+</body>
+</html>
